@@ -3,12 +3,12 @@
 
 ![](tabbaranimation.gif)
 
-#实现思路
-##利用`UITabBarController`的`UITabBarControllerDelegate`,实现代理方法
+# 实现思路
+## 利用`UITabBarController`的`UITabBarControllerDelegate`,实现代理方法
 ```objc
 - (BOOL)tabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController
 ```
-###下面是具体的实现代码
+### 下面是具体的实现代码
 ```objc
 - (BOOL)tabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController
 {
