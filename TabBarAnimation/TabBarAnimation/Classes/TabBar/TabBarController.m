@@ -105,7 +105,7 @@ static NSInteger const ImageCount = 51;
     UIImageView *imageView = tabBarBtn.subviews.firstObject;
     // 切换过了,就停止上一个动画
     if (self.currentIndex != index) {
-        // 把上一个图片视频的动画停止
+        // 把上一个图片的动画停止
         [self.currentImageView stopAnimating];
         // 把上一个图片的动画图片数组置为空
         self.currentImageView.animationImages = nil;
