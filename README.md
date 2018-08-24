@@ -1,9 +1,9 @@
 # XYTabBarAnimation
-#tabbar点击动画效果图
+# tabbar点击动画效果图
 
 ![](tabbaranimation.gif)
 
-#实现思路
+# 实现思路
 ## 利用`UITabBarController`的`UITabBarControllerDelegate`,实现代理方法
 ```objc
 - (BOOL)tabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController
