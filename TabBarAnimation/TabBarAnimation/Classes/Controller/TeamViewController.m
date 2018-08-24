@@ -18,7 +18,7 @@
     [super viewDidLoad];
 
     self.view.backgroundColor = [UIColor whiteColor];
-    self.navigationItem.title = @"Team";
+    self.navigationItem.title = @"团队";
 }
 
 - (void)didReceiveMemoryWarning {
