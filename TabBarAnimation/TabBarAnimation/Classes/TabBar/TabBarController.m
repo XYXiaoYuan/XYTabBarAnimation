@@ -102,7 +102,7 @@ static NSInteger const ImageCount = 51;
     NSInteger index = [tabBarController.childViewControllers indexOfObject:viewController];
 
     UIButton *tabBarBtn = tabBarController.tabBar.subviews[index+1];
-    UIImageView *imageView = tabBarBtn.subviews.firstObject;
+    UIImageView *imageView = tabBarBtn.subviews.lastObject;
     // 切换过了,就停止上一个动画
     if (self.currentIndex != index) {
         // 把上一个图片的动画停止
